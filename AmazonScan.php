@@ -15,6 +15,7 @@ class AmazonScan extends SiteSearchManager{
 		$this->url = 'https://www.amazon.com/';
 	}
 
+	//Set the DOMElements selectors that are map to the product properties 
 	public function setSelectors(){
 		$this->selectors = array(
 				'product_selector' => 'div.fluid',
