@@ -1,6 +1,6 @@
 <?php 
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
+//error_reporting(E_ALL);
+//ini_set("display_errors", 1);
 //Loading project dependcies:
 
 //I Tried this library but could'nt find how to parse remote url (amazon.com, etc.) instead of local html file. 
