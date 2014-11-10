@@ -12,7 +12,7 @@ class AmazonScan extends SiteSearchManager{
 	}
 
 	public function setURL(){
-		$this->url = 'http://www.amazon.com/';
+		$this->url = 'https://www.amazon.com/';
 	}
 
 	public function setSelectors(){
